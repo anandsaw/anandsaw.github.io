@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="icon" type="image/png" href="images/favicon.png">
-        <title>Timer Agency Template</title>
+        <title>Deprecation blog post</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
@@ -52,6 +52,24 @@
         <script src="js/jquery.fancybox.js"></script>
         <!-- template main js -->
         <script src="js/main.js"></script>
+
+        <style>
+        .beautiful-font {
+            font-size: 1.4em;
+            line-height: 1.8;
+            font-family: Georgia;
+
+
+        }
+
+
+        h3 {
+            font-family: Georgia; 
+        }
+
+
+
+        </style>
     </head>
     <body>
         <!--
@@ -124,9 +142,11 @@
             </div>
             </section><!--/#Page header-->
             <section class="single-post">
-                <div class="container">
+                <div class="container beautiful-font">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-8">
                            
                             <div class="post-content">
                               <div dir="ltr" style="text-align: left;" trbidi="on">
@@ -138,31 +158,15 @@ According to the official Java documentation, deprecation is:<br />
 Typically, when an API artifact is deprecated, this is marked in both the Javadoc and as a compiler warning. as seen below:<br />
 <br />
 <div class="image123">
-    <div class="imgContainer">
+    <div>
         <img src="images/ide.png" height="200" width="400"/>
         <p>Compiler warning in IDE on usage of deprecated feature</p>
     </div>
-    <div class="imgContainer">
+    <div>
          <img src="images/javadoc.png"/ height="200" width="400"/>
         <p>Javadoc of deprecated feature</p>
     </div>
 </div>
-<div style="text-align: left;">
-<br /></div>
-<br/>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 
 
@@ -236,7 +240,7 @@ On diving deeper, we see that the reason behind deprecation is the most importan
 We asked the API consumers to rank the reasons that have most frequently elicited a reaction from them. We see that the most important reason to have motivated them is the fact that a better feature is available. This negates the argument of cost provided to us by the API developers. Functional and non-functional issues with deprecated features were also ranked high.<br />
 <br />
 <h3 style="text-align: left;">
-Removal of features&nbsp;</h3>
+Removal of features&nbsp;</h3><br>
 The Java language designers have stated that one of the main reasons behind the confusion surrounding the deprecation mechanism is that the future of a deprecated method is unknown. Previous work has shown that most Java APIs never remove deprecated features. We asked our interviewees if they remove deprecated features and why they do or do not.<br />
 <br />
 API producers say that the removal policy is very variable. Removal often depends on whether they want to introduce a breaking change or not. In the case of industrial API producers, introducing a breaking change was a difficult decision, hence regular cleanup of deprecated features was not performed. On the other hand, OSS API producers, major releases often presented them with the ripe opportunity to remove a deprecated feature.<br />
@@ -244,7 +248,7 @@ API producers say that the removal policy is very variable. Removal often depend
 31% of our survey respondents mention that they remove a deprecated feature at least 2 releases after it has been removed. However, 27% mention that they never remove feature. This shows a split in terms of removal policies and is highly context dependent.<br />
 <br />
 <h3 style="text-align: left;">
-Improvements to deprecation mechanism</h3>
+Improvements to deprecation mechanism</h3><br>
 Based on our interviews, proposed enhancements to existing deprecation mechanism in JEP 277, alternative proposals made in JEP 277 and implementation of deprecation in other languages, we came up with a list of potential enhancements to deprecation.<br />
 <br />
 <div class="image123">
