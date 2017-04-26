@@ -140,7 +140,7 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/montreal.jpg') no-repeat 50%;
+  background: url('../images/delft.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;
@@ -1084,4 +1084,14 @@ article {
   padding: 8px 0;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.imgContainer{
+    float:left;
+    padding: 20px;
+}
+
+.imgCenter{
+    display: block;
+    margin: 0 auto;
 }
