@@ -113,3 +113,27 @@ a {
   color: #103969; }
   a:hover, a:focus, a:active {
     color: #103969; }
+
+
+
+.background {
+    position: relative;
+    z-index: 1;
+}
+
+.background:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?cs=srgb&dl=pexels-pixabay-208745.jpg&fm=jpg);
+    background-size: cover;
+    opacity: .2;
+}
+
+.content {
+  color: black;
+}
