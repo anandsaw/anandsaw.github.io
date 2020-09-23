@@ -129,9 +129,9 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?cs=srgb&dl=pexels-pixabay-208745.jpg&fm=jpg);
+    background-image: url(https://images.pexels.com/photos/237325/pexels-photo-237325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
-    opacity: .2;
+    opacity: .4;
 }
 
 .content {
